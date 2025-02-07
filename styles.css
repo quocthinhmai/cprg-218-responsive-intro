@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(179, 255, 230);
+}
+@media screen and (max-width: 800px) {
+    body{
+        /* Anytime the page is shown on a screen with a width from 800px to 401px */
+        background-color: rgb(255, 196, 196);
+    }
+}
+@media screen and (max-width:400px){
+    /* Anytime the page is shown on a screen with a width from 0px to 400px */
+    body{
+        background-color: rgb(69, 118, 77);
+        color: white;
+    }
+}
