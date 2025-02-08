@@ -32,6 +32,11 @@ footer{
     color: white;
 }
 
+#desktop{
+    background-color: yellow;
+    padding: 1rem;
+}
+
 @media screen and (max-width:600px) {
     div#container{
         grid-template-areas: 
@@ -42,5 +47,9 @@ footer{
         /* display:block; */
         grid-template-columns: 1fr;
         gap: 0;
+    }
+
+    #desktop{
+        display: none;
     }
 }
